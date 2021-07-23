@@ -1,0 +1,130 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fa1c0c;
+
+}
+
+li a {
+  float: left;
+  width: 44%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.pic{
+	height: 13em;
+	width: 90em;
+}
+
+.head {
+	font-weight: bold;
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.p{ 
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	font-family: georgia;
+
+}
+
+#content{
+  display: flex;
+}
+
+#content img {
+  float: left;
+  height: 25em;
+  width: 25em;
+  padding: 25px;
+}
+
+#content p {
+  padding-top: 6em;
+  font-size: 28px;
+  text-align: center;
+  padding-right: 10px;
+
+}
+
+#cont1 img {
+  float: right;
+  height: 25em;
+  width: 25em;
+  padding: 25px;
+}
+
+#cont1 p {
+  color: white;
+  padding-top: 3em;
+  font-size: 28px;
+  text-align: center;
+  padding-right: 10px;
+
+}
+
+#cont2 img {
+  float: left;
+  height: 25em;
+  width: 25em;
+  padding: 25px;
+}
+
+#cont2 p {
+  color: white;
+  padding-top: 3em;
+  font-size: 28px;
+  text-align: center;
+  padding-right: 10px;
+
+}
+
+#cont3 img {
+  float: right;
+  height: 25em;
+  width: 25em;
+  padding: 25px;
+}
+
+#cont3 p {
+  color: white;
+  padding-top: 3em;
+  font-size: 28px;
+  text-align: center;
+  padding-right: 10px;
+
+}
